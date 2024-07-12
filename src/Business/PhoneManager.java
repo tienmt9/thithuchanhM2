@@ -55,8 +55,7 @@ public class PhoneManager {
             System.out.print("Phạm vi bảo hành (trong nước hoặc quốc tế): ");
             String warrantyScope = scanner.nextLine();
 
-            GenuinePhone genuinePhone = new GenuinePhone(id, name, price, quantity, manufacturer,
-                    warrantyPeriod, warrantyScope);
+            GenuinePhone genuinePhone = new GenuinePhone(id, name, price, quantity, manufacturer, warrantyPeriod, warrantyScope);
             addPhone(genuinePhone);
         } else if (type == 2) {
             System.out.print("Quốc gia xách tay: ");
