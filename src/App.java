@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         PhoneManager manager = new PhoneManager("src/phones.csv");
-
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
